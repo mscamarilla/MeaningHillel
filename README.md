@@ -11,6 +11,13 @@ V1.0
 - Every morning at 9 o'clock he writes a phrase-wish for a day in the group chat, informs who he "dreamed of".
 - Before each lesson at school gives a motivating phrase.
 
+Installation
+1. copy all files on a server with SSL
+2. install composer
+3. register new bot via @BotFather
+4. get API key, put it in index.php on 10 line
+5. execute command in console: php composer.phar require telegram-bot/api
+
 # MeaningHillel - всмысле
 
 Telegram бот для моей группы в Hillel.
@@ -23,3 +30,10 @@ V1.0
 - Новые фразы добавляются через команду /new_idea, записываются в файл по имени пользователя, добавившего фразу. Добавлениие новых фраз происходит вручную.
 - Каждое утро в 9 часов пишет в гупповой чат фразу-пожелание на день, сообщает кто ему "снился".
 - Перед каждым занятием в школе выдает мотивирующую фразу.
+
+Установка
+1. на сервер с SSL перенести все файлы
+2. установить composer
+3. зарегистрировать нового бота через @BotFather
+4. получить от него API key, внести его в index.php на 10 строку
+5. выполнить в консоли команду php composer.phar require telegram-bot/api
